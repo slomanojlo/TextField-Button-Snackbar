@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
                             textFieldState = it
                         },
                         singleLine = true,
-                        modifier = Modifier.fillMaxSize()
+                        modifier = Modifier.fillMaxWidth()
                     )
                     Spacer(modifier = Modifier.height(16.dp))
                     Button(onClick = {
